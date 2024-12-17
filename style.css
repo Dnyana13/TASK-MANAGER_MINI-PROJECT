@@ -1,0 +1,137 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #cfcae4, #cfcae4);
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    height: 100vh;
+    color: #fff;
+}
+
+header {
+    background-color: #374151;
+    padding: 20px;
+    color: #fff;
+}
+
+.card {
+    background-color: #fff;
+    width: 500px;
+    margin: 20px auto;
+    padding: 3rem 2rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+    color: #333;
+}
+
+h1 {
+    color: #000;
+    font-size: 28px;
+    margin: 0 0 1.2em 0;
+}
+
+button {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+
+.addTaskBtn, .backBtn {
+    background-color: #26354c;
+    color: white;
+    padding: 10px 20px;
+    margin-top: 1rem;
+    font-size: 1.1rem;
+}
+
+.addTaskBtn:hover, .backBtn:hover {
+    background-color: #313b52;
+}
+
+#taskInput, #dueDate {
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+}
+
+#taskInput::placeholder {
+    color: #888;
+}
+
+
+#taskContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.taskCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+    background-color: #ffffff;
+    box-shadow: 5px 5px 20px rgba(203, 205, 211, 0.1);
+    padding: 16px;
+    top: 1rem;
+    width: 250px;
+    min-height: 175px;
+    margin: 15px;
+    border-radius: 4px;
+}
+
+.taskCard p {
+    margin: 0;
+    font-size: 1.2rem;
+    color: #333;
+    word-wrap: break-word;
+}
+
+.status {
+    margin-top: 10px;
+    font-size: 1rem;
+    color: #999;
+}
+
+
+.button-box {
+    background-color: #FCFCFC;
+    border-radius: 20px;
+    padding: 12px 10px;
+    cursor: pointer;
+    margin-top: 1rem;
+    transition: all 0.3s ease-in-out;
+}
+
+.green {
+    color: #4CAF50;
+}
+
+.red {
+    color: #e44d4d;
+}
+
+.button-box:hover {
+    background-color: #e8e8e8;
+    transform: scale(1.05);
+}
+
+.green:hover {
+    color: #3e8e41;
+}
+
+.red:hover {
+    color: #ba2d2d;
+}
